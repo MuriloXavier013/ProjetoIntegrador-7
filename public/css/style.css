@@ -6,16 +6,33 @@
     --pretoAcinzentado: #161515;
 
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 h1 {
     font-family: 'Playfair Display', sans-serif;
 }
 p, h2, h3, h4, h5, h6  {
     font-family: 'Poppins', sans-serif;
+}
+.up{
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    background-color: #161515;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+}
+
+
+@media (max-width: 480px){
+    .logo, .user-login{
+        
+    }
 }
