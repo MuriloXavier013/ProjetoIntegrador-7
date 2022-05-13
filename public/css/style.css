@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css4?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --magentaEscuro: #893b67;
@@ -77,18 +77,27 @@ h6 {
 
 .search {
   display: flex;
+  width: 100%;
   justify-content: space-between;
-  width: 90%;
+  padding-inline: 2rem;
+  padding-block: 1rem;
 }
 
-input #search-bar {
+.search input {
   display: flex;
-  width: 90vw;
+  width: 60vw;
+  border: none;
 }
 
 .search img {
   width: 2rem;
   height: 2rem;
+}
+
+.search img:hover {
+  width: 4rem;
+  height: 4rem;
+  color: wheat;
 }
 
 /* @media (max-width: 480px) {
