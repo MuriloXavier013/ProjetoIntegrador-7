@@ -131,9 +131,22 @@ footer{
   flex-direction: column;
   justify-content: center;
 }
+.central-atendimento a{
+  color: black;
+}
 .whatsapp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+.whatsapp img{
   width: 2rem;
   height: 2rem;
+}
+.pinterest , .facebook, .instagram{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 10px;
 }
 
 /* @media (max-width: 480px) {
