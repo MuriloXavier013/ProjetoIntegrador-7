@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/css/style.css" />
-    <title>LuModas</title>
+    <title>Lu Modas</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="up"></div>
+
+      <!-- Start Header-->
 
       <div class="head">
         <img
@@ -31,6 +33,10 @@
         />
       </div>
 
+      <!-- End Header-->
+
+      <!-- Start Search-->
+
       <div class="search">
         <form action="" class="search-form">
           <input
@@ -43,33 +49,65 @@
         <img src="./public/img/svg/lupa-de-detetive.svg" alt="" />
       </div>
 
-      <ul class="slider">
-        <li>
-          <input type="radio" id="slide1" name="slide" checked />
-          <label for="slide1"></label>
-          <img
-            src="./public/img/svg/1200px-HTML5_logo_and_wordmark.svg.png"
-            alt=""
-          />
-        </li>
-        <li>
-          <input type="radio" id="slide2" name="slide" />
-          <label for="slide2"></label>
-          <img
-            src="./public/img/svg/1200px-CSS3_logo_and_wordmark.svg.jfif"
-            alt=""
-          />
-        </li>
-        <li>
-          <input type="radio" id="slide3" name="slide" />
-          <label for="slide3"></label>
-          <img
-            src="/public/img/svg/Unofficial_JavaScript_logo_2.svg.png"
-            alt=""
-          />
-        </li>
-      </ul>
+      <!-- End  Search-->
 
+      <!-- Start  Slider-->
+
+      <div class="slider">
+        <div class="slides">
+          <!--Start Radio Buttons-->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <!--End Radio Buttons-->
+
+          <!-- Start Slide Images -->
+          <div class="slide first">
+            <img
+              src="/public/img/svg/Unofficial_JavaScript_logo_2.svg.png"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="/public/img/svg/1200px-CSS3_logo_and_wordmark.svg.jfif"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="/public/img/svg/1200px-HTML5_logo_and_wordmark.svg.png"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img src="/public/img/svg/nodejs_logo.png" alt="" />
+          </div>
+
+          <!-- End Slide Images -->
+
+          <!-- Start Navigation Auto -->
+
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!-- End Navigation Auto -->
+        </div>
+      </div>
+      <!-- End  Slider-->
+
+      <!-- Start Footer -->
       <div class="footer">
         <footer>
           <div class="footer-logo">
@@ -121,6 +159,9 @@
           </div>
         </footer>
       </div>
+      <!-- End Footer -->
     </div>
+
+    <script src="/counter.js"></script>
   </body>
 </html>
