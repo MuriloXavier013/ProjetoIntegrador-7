@@ -48,7 +48,7 @@ h6 {
 
 .wrapper {
   position: relative;
-  width: min(50rem, 100%);
+  width: 100%;
   margin-inline: auto;
   height: 100vw;
 
@@ -118,7 +118,7 @@ h6 {
 
 .slider {
   margin: 0 auto;
-  width: 80rem;
+  width: 80%;
   height: 40rem;
   overflow: hidden;
   display: flex;
@@ -226,6 +226,13 @@ h6 {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: white;
 }
+/*--------------- CATEGORIAS -----------------------------------------*/
+
+.categorias{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4.5rem;
+}
 
 /*--------------- FOOTER -----------------------------------------*/
 
@@ -261,6 +268,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: initial;
+  justify-content:space-evenly;
 }
 .institucional a {
   color: black;
