@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css4?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --azul: #268fbe;
+  --cinza: #616668;
+  --vermelho: #e81e4a;
+
+}
 
   * {
     margin: 0;
@@ -8,14 +15,21 @@
   .container {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    padding-top: 6rem;
     
   }
 
-  .container1 {
+  .container1{
+    padding-left: 6rem;
+    padding-right: 2rem;
 
-        padding: 300px;
+  }
+  .container2{
+    padding-right: 6rem;
+    padding-left: 2rem;
+
   }
 
   .img-produto {
@@ -25,23 +39,19 @@
 
   }
 
-  .h4 {
-
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-  }
-
- 
-
   .adicionar-carrinho {
 
-    width: 300px;
     box-sizing: border-box;
-    height: 25px;
-    color: #e81e4a;
-    background-color: #616668
+    height: 3rem;
+    width: 16vw;
+    color: whitesmoke;
+    background-color: var(--azul);
+    border-radius: 5%;
+    border: none;
 
+  }
+  .cartao-pag , .caminhao-entrega{
+    height: 2rem;
   }
 
 
