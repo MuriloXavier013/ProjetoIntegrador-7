@@ -1,13 +1,14 @@
-* {
+
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
   .container {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     
   }
@@ -17,10 +18,10 @@
         padding: 300px;
   }
 
-  .img {
+  .img-produto {
 
-    width: 300px;
-    height: 300px;
+    width: 25rem;
+    height: 25rem;
 
   }
 
@@ -31,11 +32,7 @@
     flex-direction: row;
   }
 
-  .h4.img {
-
-    width: 3px;
-
-  }
+ 
 
   .adicionar-carrinho {
 
